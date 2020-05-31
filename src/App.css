@@ -1,0 +1,21 @@
+/* Reset values */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/* General set-up */
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
